@@ -8,7 +8,6 @@ const isPrime = (num) => {
     for (let i = 2; i < num; i++) {
         if (num % i === 0) {
             return false;
-            break;
         }
         else {
             return true;
@@ -17,6 +16,9 @@ const isPrime = (num) => {
     if (num === 2) {
         return true;
     }
+    else if (num === 1) {
+        return false
+    }
 }
 
-console.log(isPrime(2));
+console.log(isPrime(1));

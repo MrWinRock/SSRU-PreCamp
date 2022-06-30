@@ -7,12 +7,10 @@
 const isPrime = (num) => {
     for (let i = 2; i < num; i++) {
         if (num % i === 0) {
-            // console.log(false);
             return false;
             break;
         }
         else {
-            // console.log(true);
             return true;
         }
     }
@@ -21,5 +19,4 @@ const isPrime = (num) => {
     }
 }
 
-// isPrime(2);
 console.log(isPrime(2));

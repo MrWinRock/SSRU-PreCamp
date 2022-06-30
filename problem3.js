@@ -2,7 +2,7 @@
 // Verify the number is prime number.
 // 1. Create a function named isPrime
 // 2. isPrime function return as bool (true, false)
-// นายปฏิวัฒน์ กฤษฏิ์สุภารัตน 65122250031
+// นายปฏิวัฒน์ กฤษฏิ์สุภารัตน 65122250031 CS
 
 const isPrime = (num) => {
     for (let i = 2; i < num; i++) {
